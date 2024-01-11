@@ -1,0 +1,196 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+
+.firstSection{
+       display: flex;
+       flex-direction: row;
+       width:20vw;
+       justify-content: flex-start;
+    align-items: center;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    width:500px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 10px;
+    
+   
+}
+.secondSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:15vw;
+}
+
+.imageSection{
+    display: flex;
+    width:300px;
+}
+
+img{
+height:200px;
+width:180px;
+
+}
+
+.cartButton{
+    align-self: center;
+    margin-bottom: 5px;
+    background-color: wheat;
+    color: black;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 13px;
+
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.productsList{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:nowrap;
+        
+    
+   
+   
+}
+
+.buttonSection{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    width:30vw;
+   
+}
+
+h2{
+    font-size:15px;
+    color:green;
+    padding-left: 10px;
+     font-family: 'Inter';
+   
+}
+
+.price{
+    font-size:15px;
+    color:green;
+    padding-left: 10px;
+    font-family: "Inter";
+   
+}
+
+.comparePrice{
+    font-size:13px;
+    color:red;
+    text-decoration: line-through;
+    font-family: "Inter";
+   
+}
+.title{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: "Inter";
+   
+    
+}
+
+.vendor{
+    font-size: 13px;
+    color:rgb(150, 19, 19);
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: "Inter";
+   
+}
+.color{
+    background-color: red;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+}
+.loading{
+    color: red;
+    font-size: 20px;
+   
+    justify-content: center;
+    align-self: center;
+    font-family: "Inter";
+   
+}
+
+@media screen and (min-width:768px) {
+
+    .productsList{
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    li{
+        
+        width:400px;
+       
+       
+    }
+
+    .firstSection{
+        width:30vw
+    }
+
+
+    h2{
+        font-size:18px;
+       
+    }
+    
+    .price{
+        font-size:16px;
+        
+    }
+    
+    .comparePrice{
+        font-size:16px;
+        
+    }
+
+    .title{
+        font-size: 18px;
+       
+        
+    }
+    
+    .vendor{
+        font-size: 15px;
+        
+    }
+    
+    .loading{
+        
+        font-size: 40px;
+       
+      
+    }
+ 
+ 
+}
