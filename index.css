@@ -15,7 +15,7 @@ li{
     flex-direction: column;
     justify-content: space-between;
     align-items:flex-start;
-    width:500px;
+    width:600px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px;
     border-radius: 10px;
@@ -26,17 +26,17 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:15vw;
+    width:25vw;
 }
 
 .imageSection{
     display: flex;
-    width:300px;
+    width:400px;
 }
 
 img{
-height:200px;
-width:180px;
+height:230px;
+width:250px;
 
 }
 
@@ -48,6 +48,13 @@ width:180px;
     border: 0px;
     border-radius: 4px;
     font-size: 13px;
+    font-family: "Inter";
+
+}
+.discount{
+    font-size:20px;
+    color:green;
+    
     font-family: "Inter";
 
 }
@@ -95,7 +102,7 @@ h1{
 }
 
 h2{
-    font-size:15px;
+    font-size:20px;
     color:green;
     padding-left: 10px;
      font-family: 'Inter';
@@ -103,7 +110,7 @@ h2{
 }
 
 .price{
-    font-size:15px;
+    font-size:20px;
     color:green;
     padding-left: 10px;
     font-family: "Inter";
@@ -111,14 +118,14 @@ h2{
 }
 
 .comparePrice{
-    font-size:13px;
+    font-size:20px;
     color:red;
     text-decoration: line-through;
     font-family: "Inter";
    
 }
 .title{
-    font-size: 15px;
+    font-size: 20px;
     color:black;
     font-weight: bold;
     padding-left: 10px;
@@ -128,7 +135,7 @@ h2{
 }
 
 .vendor{
-    font-size: 13px;
+    font-size: 16px;
     color:rgb(150, 19, 19);
     padding-left: 10px;
     font-weight: bold;
@@ -204,6 +211,12 @@ h2{
        
       
     }
+
+    img{
+        height:250px;
+        width:290px;
+        
+        }
  
  
 }

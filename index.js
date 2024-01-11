@@ -33,6 +33,12 @@ function eachResult(eachdata){
         compare_at_price.classList.add("comparePrice")
         secondSection.appendChild(compare_at_price)
 
+        let discount=document.createElement("p")
+        discount.textContent=Math.round((((eachdata.compare_at_price-eachdata.price)/eachdata.compare_at_price)*100))+"%"
+        discount.classList.add("discount")
+
+        secondSection.appendChild(discount)
+
        
         let badge_text=document.createElement("h2")
         badge_text.textContent=eachdata.badge_text
