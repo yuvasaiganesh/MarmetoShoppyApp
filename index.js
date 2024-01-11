@@ -40,10 +40,12 @@ function eachResult(eachdata){
 
         let image=document.createElement("img")
         image.src=eachdata.image
+        image.alt="Product image"
         imageSection.appendChild(image)
 
         let second_image=document.createElement("img")
         second_image.src=eachdata.second_image
+        second_image.alt="Product image"
         imageSection.appendChild(second_image)
 
         let button=document.createElement("button")
